@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio 4</title>
+    <script>
+    /*Exercise #4 (sugerencia filter() e includes())
+    let student1Courses = ['Math', 'English', 'Programming'];
+    let student2Courses = ['Geography', 'Spanish', 'Programming'];
+    Create a program that loops over the 2 arrays; if there are any common courses print them out to the console.*/
+    let student1Courses = ['Math', 'English', 'Programming'];
+    let student2Courses = ['Geography', 'Spanish', 'Programming'];
+    const clasesEnComun = student1Courses.filter(clases => student2Courses.includes(clases));
+    
+    if (clasesEnComun.length > 0) {
+        console.log('Clases en comun:');
+        clasesEnComun.forEach(clases => {
+            console.log(clases);
+        });
+} else {
+  console.log('Sin clases en comunes');
+}
+    </script>
+</head>
+<body>
+<h3>Exercise #4 (sugerencia filter() e includes())</h3>
+    <p>let student1Courses = ['Math', 'English', 'Programming'];</p>
+    <p>let student2Courses = ['Geography', 'Spanish', 'Programming'];</p>
+    <p>Create a program that loops over the 2 arrays; if there are any common courses print them out to the console.</p>
+
+<span> let student1Courses = ['Math', 'English', 'Programming']; </span>
+<p> let student2Courses = ['Geography', 'Spanish', 'Programming'];</p>
+
+<p>
+    if (clasesEnComun.length > 0) {
+        console.log('Clases en comun:');</p>
+        <p>clasesEnComun.forEach(clases => {</p>
+            <p>console.log(clases);</p>
+       <p> });</p>
+
+
+<p>} else {</p>
+    <p>console.log('Sin clases en comunes');</p>
+  <span>}</span>
+
+</body>
+</html>
+
